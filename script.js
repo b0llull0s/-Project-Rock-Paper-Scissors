@@ -1,4 +1,4 @@
-// * Adversary Function
+// Adversary Function
 function getComputerChoice(rock, paper, scissor) {
     const x = Math.random();
     if (x < 0.33) {
@@ -9,6 +9,11 @@ function getComputerChoice(rock, paper, scissor) {
         return scissor;
     }
 }
-    
-// * test log
-console.log(getComputerChoice("rock", "paper", "scissor"));
+    // test log
+//console.log(getComputerChoice("rock", "paper", "scissor"));
+
+// User function
+function getHumanChoice() {
+    prompt("Rock, Paper or Scissor?");
+}
+console.log(getHumanChoice())
