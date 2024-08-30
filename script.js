@@ -9,11 +9,19 @@ function getComputerChoice(rock, paper, scissor) {
         return scissor;
     }
 }
-    // test log
+
+// test log
 //console.log(getComputerChoice("rock", "paper", "scissor"));
 
 // User function
 function getHumanChoice() {
     prompt("Rock, Paper or Scissor?");
 }
-console.log(getHumanChoice())
+
+// Test log
+//console.log(getHumanChoice())
+
+// Score Variables
+let humanScore=0;
+let computerScore=0;
+
