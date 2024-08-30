@@ -25,3 +25,11 @@ function getHumanChoice() {
 let humanScore=0;
 let computerScore=0;
 
+// Playround function
+function playRound(humanChoice, ComputerChoice) {
+
+}
+const humanSelection = getHumanChoice();
+const computerSelection = getComputerChoice();
+
+playRound(humanSelection, computerSelection);
