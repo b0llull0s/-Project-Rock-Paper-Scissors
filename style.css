@@ -95,7 +95,7 @@ button:hover {
 
     button {
         width: 80%; /* Make buttons larger on small screens */
-        height: auto;
+        height: 500px;
     }
 
     #score, #result {
