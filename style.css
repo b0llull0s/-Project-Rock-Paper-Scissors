@@ -1,0 +1,88 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #090d17; /* Light background */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ff8d0a;
+    margin: 20px 0;
+}
+
+/* Section Styling */
+section {
+    margin: 20px 0;
+}
+
+section header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ce6118;
+}
+
+/* Buttons for Rock, Paper, Scissors */
+button {
+    border: none;
+    background-color: #4CAF50;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    color: #fff;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button Images */
+#rockBtn {
+    background-image: url('img/rock.jpg');
+}
+
+#paperBtn {
+    background-image: url('img/paper.jpg');
+}
+
+#scissorsBtn {
+    background-image: url('img/scissor.jpg');
+}
+
+/* Hover Effect */
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Score and Result Styling */
+#score {
+    font-size: 1.8em;
+    color: #fe0000;
+    margin-top: 10px;
+}
+
+#result {
+    font-size: 1.6em;
+    color: #ff8d0a;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Dynamic result color change */
+#result.win {
+    color: green;
+}
+
+#result.lose {
+    color: red;
+}
+
+#result.draw {
+    color: orange;
+}
