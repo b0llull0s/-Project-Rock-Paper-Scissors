@@ -25,4 +25,4 @@ You can test it [here](https://b0llull0s.github.io/Project-Rock-Paper-Scissors/)
 ```bash
 cd rock-paper-scissors
 ```
-3. **Just open `index.html` in your browser** 
+3. **Just open `index.html` in your browser!!** 
