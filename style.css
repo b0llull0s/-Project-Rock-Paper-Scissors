@@ -37,7 +37,7 @@ button {
     color: #fff;
     width: 500px;
     height: 500px;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
@@ -95,7 +95,7 @@ button:hover {
 
     button {
         width: 80%; /* Make buttons larger on small screens */
-        height: 500px;
+        height: auto;
     }
 
     #score, #result {
