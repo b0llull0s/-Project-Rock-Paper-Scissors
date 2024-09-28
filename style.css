@@ -87,6 +87,7 @@ button:hover {
     color: orange;
 }
 
+
 /* Media Query for Mobile Screens */
 @media only screen and (max-width: 600px) {
     header h1 {
@@ -94,9 +95,8 @@ button:hover {
     }
 
     button {
-        width: 100px; /* Fixed width for buttons on mobile */
-        height: 100px; /* Fixed height for buttons on mobile */
-        background-size: contain; /* Ensure full image is visible */
+        width: 100px; /* Resize buttons for mobile */
+        height: 100px;
     }
 
     #score, #result {
